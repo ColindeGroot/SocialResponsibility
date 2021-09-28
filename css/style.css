@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -10,6 +14,7 @@ header{
     position: fixed;
     width: 100%;
     background: lightblue;
+    height:50px;
 }
 .logo a{
     align-items: center;
@@ -26,3 +31,16 @@ header{
     /*padding-right:10%;*/
     margin-right:3%;
 }
+.inlogbuttons a{
+    padding:10px;
+    color:black;
+    background-color:rgb(244, 250, 255);
+    border-radius: 15rem;
+    text-decoration:none;
+}
+.inlogbuttons a:hover{
+    background-color:rgb(182, 182, 182);
+    border-radius: 15rem;
+    text-decoration:none;
+}
+
