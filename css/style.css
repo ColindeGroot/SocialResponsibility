@@ -2,3 +2,27 @@
     margin:0;
     padding:0;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: lightblue;
+}
+.logo a{
+    align-items: center;
+    padding:25%;
+    color:white;
+    text-decoration:none;
+    font-size: 20px;
+    margin-left:40%;
+    font-family: 'Redressed', cursive;
+}
+.inlogbuttons{
+    float:right;
+    align-items:center;
+    /*padding-right:10%;*/
+    margin-right:3%;
+}
