@@ -2,6 +2,7 @@
 *{
     margin:0;
     padding:0;
+    text-decoration: none;
 }
 a{
     font-family: 'Montserrat', sans-serif;
@@ -20,7 +21,6 @@ header{
     align-items: center;
     padding:25%;
     color:white;
-    text-decoration:none;
     font-size: 20px;
     margin-left:40%;
     font-family: 'Redressed', cursive;
@@ -36,11 +36,26 @@ header{
     color:black;
     background-color:rgb(244, 250, 255);
     border-radius: 15rem;
-    text-decoration:none;
+   
 }
 .inlogbuttons a:hover{
     background-color:rgb(182, 182, 182);
     border-radius: 15rem;
     text-decoration:none;
 }
+.navbar{
+    padding-top:4em;
+    text-align:center;
+    width:100%;
+    background-color:rgb(196, 196, 196);
+    margin-right:10px;
+    height:30px;
+}
+.navbar a{
+    color:black;
+}
 
+.navbar>a{
+    padding-right:7rem;
+    padding-left:7rem;
+} 
