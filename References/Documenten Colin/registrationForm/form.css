@@ -1,0 +1,15 @@
+html{
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(255, 94, 0), rgb(123, 18, 243));
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formholder{
+    text-align: center;
+}
